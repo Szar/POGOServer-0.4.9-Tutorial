@@ -75,10 +75,16 @@ If you get an error about game_master or are unable to download the game assets,
 Make sure the account you are trying to login with is NOT banned and you have logged into the Niantic PokemonGo servers at least once with your account. 
 
 ### Protobuf Issues
-**You must compile install protobuf to your machine.***
-
-### Cant login to web api
-The default login is root and the default password is 13377. You can change the password by editing the file ```.save``` in your main server directory. (This file might be hidden)
+**You must compile install protobuf to your machine.**
 
 ### Pokemon not spawning
 In order to spawn pokemon, you can type into the console ```/spawn usernamehere POKEMONNAME 10```. You then need to restart your PokemonGo app (not server) to see the spawned pokemon.
+
+### Username showing as "unknown"
+If you want to update your username, you have to stop your server and close out of the PokemonGo app. In your MySQL database, open the users table and update your username field and change unknown to a username of your choosing!
+
+### World Manager - Can't login
+The default login for the World Manager is root and the default password is 13377. You can change the password by editing the file ```.save``` in your main server directory. (This file might be hidden)
+
+### World Manager - Map not working
+You must update line 12 of index.html. You need to change "X" in key=X to your google maps api key.

@@ -42,7 +42,7 @@ Download and install [Genymotion](https://www.genymotion.com/download/)
 **You can install APKs in Genymotion simply by dragging and dropping them to your device screen.**
 
 #### Prepackaged Device
-1. Download prepackaged device [Download coming soon]
+1. Download [prepackaged device](https://mega.nz/#!2cEygawZ)
 2. Create a new device in Genymotion (Google Nexus 6P - 6.0.0 - API 23)
 3. Find your "Deployed Devices" directory and replace your device folder (example: Google Nexus 6P - 6.0.0 - API 23 - 1440x2560) with the one you downloaded
   * OS X Location: ~/.Genymobile/Genymotion/deployed/
@@ -91,3 +91,4 @@ You must update line 12 of index.html. You need to change "X" in key=X to your g
 
 ### Other Issues
 If you come across any issues not listed here or are unable to fix any issues using the instructions above, please refer to the [POGOServer Issues](https://github.com/maierfelix/POGOserver/issues?utf8=%E2%9C%93&q=is%3Aissue) page on Github. **Search your error before submitting a new issue!**
+

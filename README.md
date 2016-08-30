@@ -76,3 +76,9 @@ Make sure the account you are trying to login with is NOT banned and you have lo
 
 ### Protobuf Issues
 **You must compile install protobuf to your machine.***
+
+### Cant login to web api
+The default login is root and the default password is 13377. You can change the password by editing the file ```.save``` in your main server directory. (This file might be hidden)
+
+### Pokemon not spawning
+In order to spawn pokemon, you can type into the console ```/spawn usernamehere POKEMONNAME 10```. You then need to restart your PokemonGo app (not server) to see the spawned pokemon.

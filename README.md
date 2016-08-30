@@ -14,7 +14,26 @@
   * [MySQL Community Server](http://dev.mysql.com/downloads/mysql/)
   * OR get a free database from any service like https://www.db4free.net/
 
+# Setting Up 0.5.0 Server
+1. ```git clone https://github.com/maierfelix/POGOserver.git```
+2. ```cd POGOserver-master```
+3. Edit cfg.js lines 39 to 42
+```
+  MYSQL_HOST_IP: "MYSQL HOST HERE",
+  MYSQL_DB_NAME: "DATABASE NAME HERE",
+  MYSQL_USERNAME: "USERNAME HERE",
+  MYSQL_PASSWORD: "USER PASSWORD HERE",
+```
+4. Edit cfg.js lines 49 to 50
+```
+  DOWNLOAD_USERNAME: "google email",
+  DOWNLOAD_PASSWORD: "google password",
+```
+5. Run server
+  * Windows: Run install-windows.bat then run-windows.bat
+  * Linux/OS X: ```sh run-linux.sh```
 
+**If you get an error about game_master, edit .save (file might be hidden) and change "isFirstRun" to true and restart your server.**
 
 # Setting Up 0.4.9 Server
 
@@ -78,7 +97,9 @@ Make sure the account you are trying to login with is NOT banned and you have lo
 **You must compile install protobuf to your machine.**
 
 ### Pokemon not spawning
-In order to spawn pokemon, you can type into the console ```/spawn usernamehere POKEMONNAME 10```. You then need to restart your PokemonGo app (not server) to see the spawned pokemon.
+0.5.0: In the World Manager, you might have to spawn the pokemon several times and restart your server to get them to appear.
+
+0.4.9: In order to spawn pokemon, you can type into the console ```/spawn usernamehere POKEMONNAME 10```. You then need to restart your PokemonGo app (not server) to see the spawned pokemon.
 
 ### Username showing as "unknown"
 If you want to update your username, you have to stop your server and close out of the PokemonGo app. In your MySQL database, open the users table and update your username field and change unknown to a username of your choosing!

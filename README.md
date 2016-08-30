@@ -37,7 +37,7 @@
 
 # Setting Up 0.4.9 Server
 
-1. Download server files: https://mega.nz/#!nQFiiLCb
+1. Download the [0.4.9 Server Files](https://mega.nz/#!nQFiiLCb)
 2. Edit cfg.js lines 39 to 42
 ```
   MYSQL_HOST_IP: "MYSQL HOST HERE",
@@ -83,9 +83,9 @@ Download and install [Genymotion](https://www.genymotion.com/download/)
 ### Node related errors
 First try and remove your current node_modules and reinstall your modules with ```npm install```. Make sure you have node 6.4 or higher with ```npm -v```
 
-If you're still running into errors, you can try and download a prepackaged node_modules directory to replace your current one. 
-* [Node Modules for Windows](https://mega.nz/#!SUUDXBZQ)
-* [Node Modules for OS X](https://mega.nz/#!DNUTzB5K)
+0.4.9: If you're still running into errors, you can try and download a prepackaged node_modules directory to replace your current one. 
+* [0.4.9 Node Modules for Windows](https://mega.nz/#!SUUDXBZQ)
+* [[0.4.9 Node Modules for OS X](https://mega.nz/#!DNUTzB5K)
 
 ### Missing game_master or cannot download game assets
 If you get an error about game_master or are unable to download the game assets, you can download the data/ directory [here](https://mega.nz/#!uNUWQCqS).

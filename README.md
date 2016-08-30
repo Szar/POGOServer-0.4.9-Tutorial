@@ -61,18 +61,18 @@ Download and install [Genymotion](https://www.genymotion.com/download/)
 
 # Troubleshooting
 
-#### Node related errors
+### Node related errors
 First try and remove your current node_modules and reinstall your modules with ```npm install```. Make sure you have node 6.4 or higher with ```npm -v```
 
 If you're still running into errors, you can try and download a prepackaged node_modules directory to replace your current one. 
 * [Node Modules for Windows](https://mega.nz/#!SUUDXBZQ)
 * [Node Modules for OS X](https://mega.nz/#!DNUTzB5K)
 
-#### Missing game_master or cannot download game assets
+### Missing game_master or cannot download game assets
 If you get an error about game_master or are unable to download the game assets, you can download the data/ directory [here](https://mega.nz/#!uNUWQCqS).
 
-#### Issues logging in from game
+### Issues logging in from game
 Make sure the account you are trying to login with is NOT banned and you have logged into the Niantic PokemonGo servers at least once with your account. 
 
-#### Protobuf Issues
+### Protobuf Issues
 **You must compile install protobuf to your machine.***

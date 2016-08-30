@@ -88,3 +88,6 @@ The default login for the World Manager is root and the default password is 1337
 
 ### World Manager - Map not working
 You must update line 12 of index.html. You need to change "X" in key=X to your google maps api key.
+
+### Other Issues
+If you come across any issues not listed here or are unable to fix any issues using the instructions above, please refer to the [POGOServer Issues](https://github.com/maierfelix/POGOserver/issues?utf8=%E2%9C%93&q=is%3Aissue) page on Github. **Search your error before submitting a new issue!**
